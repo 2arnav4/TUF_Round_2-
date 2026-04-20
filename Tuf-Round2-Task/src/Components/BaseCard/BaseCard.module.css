@@ -1,0 +1,7 @@
+.card {
+  background-color: var(--card-bg, #ffffff);
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 6px 18px rgb(255, 255, 255);
+  color: inherit;
+}
