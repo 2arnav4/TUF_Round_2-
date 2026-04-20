@@ -9,6 +9,7 @@ const bolt = <span aria-hidden="true">⚡</span>
 const ReportsCard = () => {
   return (
     <BaseCard className={styles.reportsCard}>
+      <div className={styles.overlayBox} aria-hidden="true" />
       <div className={styles.layout}>
         <div className={styles.leftSection}>
           <h2 className={styles.heading}>
