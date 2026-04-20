@@ -84,9 +84,14 @@
   gap: 10px 16px;
 }
 
-@media (max-width: 520px) {
+@media (max-width: 640px) {
   .enrichmentCard {
     padding-bottom: 12px;
+    height: auto;
+  }
+
+  .enrichedPanel {
+    flex: 0 0 auto;
   }
 
   .detailsGrid {

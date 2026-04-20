@@ -46,6 +46,11 @@
   .stack {
     gap: 16px;
   }
+
+  .stack > * {
+    flex: 0 0 auto;
+    min-height: 0;
+  }
 }
 
 @media (max-width: 640px) {

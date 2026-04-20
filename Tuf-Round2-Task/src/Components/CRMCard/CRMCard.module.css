@@ -53,6 +53,14 @@
   margin-bottom: 0;
 }
 
+@media (min-width: 961px) {
+  .crmPanel {
+    border-radius: 14px 0 0 14px;
+    box-shadow: -2px 6px 16px rgba(16, 24, 40, 0.08);
+    margin-right: -22px;
+  }
+}
+
 .panelHeader {
   display: flex;
   align-items: center;
@@ -131,7 +139,7 @@
 
 @media (max-width: 640px) {
   .crmCard {
-    height: 100%;
+    height: auto;
   }
 
   .content {
@@ -158,8 +166,6 @@
   .crmPanel {
     border-radius: 12px;
     padding: 10px 12px;
-    margin-right: 0;
-    margin-top: auto;
   }
 
   .panelHeader {
