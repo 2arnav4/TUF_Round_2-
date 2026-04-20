@@ -149,7 +149,78 @@
 }
 
 @media (max-width: 520px) {
+  .milestonesCard {
+    height: 100%;
+  }
+
+  .heading {
+    font-size: 16px;
+  }
+
+  .subtext {
+    font-size: 12px;
+    max-width: 100%;
+  }
+
+  .content {
+    margin-bottom: 12px;
+  }
+
+  .alertPanel {
+    padding: 12px 14px;
+    border-radius: 12px;
+  }
+
+  .alertHeader {
+    gap: 6px;
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+  }
+
+  .appIcon {
+    width: 20px;
+    height: 20px;
+    font-size: 11px;
+  }
+
+  .appName {
+    font-size: 12px;
+  }
+
+  .appBadge {
+    font-size: 8px;
+    padding: 1px 4px;
+  }
+
+  .timestamp {
+    font-size: 11px;
+    display: none;
+  }
+
+  .message {
+    font-size: 12px;
+    margin-bottom: 3px;
+  }
+
+  .user {
+    font-size: 12px;
+    gap: 6px;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+  }
+
+  .avatar {
+    width: 18px;
+    height: 18px;
+    font-size: 10px;
+  }
+
   .detailsGrid {
     grid-template-columns: 1fr;
+    gap: 8px 12px;
+  }
+
+  .link {
+    font-size: 12px;
   }
 }

@@ -129,3 +129,71 @@
   background-color: #fecdd3;
   color: #be123c;
 }
+
+@media (max-width: 640px) {
+  .crmCard {
+    height: 100%;
+  }
+
+  .content {
+    margin-bottom: 10px;
+  }
+
+  .heading {
+    font-size: 16px;
+  }
+
+  .subtext {
+    font-size: 12px;
+  }
+
+  .statusStrip {
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+
+  .statusItem {
+    font-size: 11px;
+  }
+
+  .crmPanel {
+    border-radius: 12px;
+    padding: 10px 12px;
+    margin-right: 0;
+    margin-top: auto;
+  }
+
+  .panelHeader {
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+  }
+
+  .panelTitle {
+    font-size: 12px;
+  }
+
+  .logo {
+    width: 18px;
+    height: 18px;
+    font-size: 9px;
+  }
+
+  .tableHead {
+    padding: 6px 2px 2px;
+    font-size: 11px;
+  }
+
+  .col {
+    gap: 4px;
+  }
+
+  .seatIcon {
+    font-size: 10px;
+  }
+
+  .companyIcon {
+    width: 16px;
+    height: 16px;
+    font-size: 9px;
+  }
+}

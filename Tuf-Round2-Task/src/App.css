@@ -47,3 +47,18 @@
     gap: 16px;
   }
 }
+
+@media (max-width: 640px) {
+  .app {
+    padding: 12px;
+    gap: 12px;
+  }
+
+  .row {
+    gap: 12px;
+  }
+
+  .stack {
+    gap: 12px;
+  }
+}
