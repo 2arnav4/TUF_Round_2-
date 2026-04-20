@@ -1,18 +1,146 @@
 .reportsCard {
-  --card-bg: #c9ece4;
+  --card-bg: linear-gradient(135deg, #d6f0ea 0%, #b9e4ee 100%);
 }
 
-.content {
+.layout {
+  display: flex;
+  gap: 24px;
+  align-items: stretch;
+}
+
+.leftSection {
+  flex: 0 0 34%;
+  display: flex;
+  align-items: flex-start;
+  padding: 8px 4px;
 }
 
 .heading {
+  font-size: 26px;
+  line-height: 1.25;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0;
+  letter-spacing: -0.2px;
 }
 
-.visuals {
+.rightSection {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  align-items: start;
 }
 
-.infoPanel {
+.miniCard {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(16, 24, 40, 0.06);
 }
 
-.activationPanel {
+.activationCard {
+  transform: translateY(16px);
+}
+
+.companyHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f0f1f3;
+  margin-bottom: 4px;
+}
+
+.logo {
+  width: 36px;
+  height: 36px;
+  background-color: #0b1b2b;
+  color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.logoMark {
+  display: inline-block;
+  transform: rotate(90deg);
+  font-size: 14px;
+  letter-spacing: -1px;
+}
+
+.companyMeta {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.companyName {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0f172a;
+  line-height: 1.2;
+}
+
+.joined {
+  font-size: 11px;
+  color: #8b92a1;
+  margin-top: 2px;
+}
+
+.statusDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #22c55e;
+  box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.2);
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+}
+
+.activationHeader {
+  padding-bottom: 8px;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #f0f1f3;
+}
+
+.activationTitle {
+  font-size: 13px;
+  color: #5a6170;
+  font-weight: 500;
+}
+
+.activationPercent {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-top: 2px;
+}
+
+.bars {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 900px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .leftSection {
+    flex: 1 1 auto;
+  }
+
+  .rightSection {
+    grid-template-columns: 1fr;
+  }
+
+  .activationCard {
+    transform: none;
+  }
 }

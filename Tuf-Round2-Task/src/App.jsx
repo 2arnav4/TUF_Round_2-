@@ -7,10 +7,14 @@ import CRMCard from './Components/CRMCard/CRMCard'
 function App() {
   return (
     <div className="app">
-      <ReportsCard />
-      <MilestonesCard />
-      <EnrichmentCard />
-      <CRMCard />
+      <div className="column columnLeft">
+        <ReportsCard />
+        <MilestonesCard />
+      </div>
+      <div className="column columnRight">
+        <EnrichmentCard />
+        <CRMCard />
+      </div>
     </div>
   )
 }

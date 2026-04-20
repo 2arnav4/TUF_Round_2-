@@ -1,0 +1,35 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.labelRow {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #8b92a1;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  color: #8b92a1;
+  font-size: 12px;
+}
+
+.label {
+  letter-spacing: 0.1px;
+}
+
+.value {
+  color: #111827;
+  font-size: 14px;
+  font-weight: 600;
+  word-break: break-word;
+}

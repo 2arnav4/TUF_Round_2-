@@ -1,0 +1,54 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: minmax(90px, 1fr) minmax(80px, 1.4fr) auto;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0;
+  font-size: 13px;
+}
+
+.labelGroup {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #3b3f46;
+  font-weight: 500;
+}
+
+.dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #e5e7eb;
+  flex-shrink: 0;
+}
+
+.label {
+  white-space: nowrap;
+}
+
+.track {
+  position: relative;
+  height: 6px;
+  background-color: #eef0f4;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #6366f1;
+  border-radius: 999px;
+  transition: width 400ms ease;
+}
+
+.percent {
+  color: #111827;
+  font-weight: 600;
+  text-align: right;
+  min-width: 38px;
+}

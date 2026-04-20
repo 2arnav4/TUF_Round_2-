@@ -1,15 +1,87 @@
 .enrichmentCard {
-  --card-bg: #fbe3cf;
+  --card-bg: linear-gradient(135deg, #fbe3cf 0%, #fcd5b6 100%);
+}
+
+.badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background-color: #0b1b2b;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.badgeMark {
+  display: inline-block;
+  transform: rotate(90deg);
+  font-size: 14px;
+  letter-spacing: -1px;
+  font-weight: 700;
 }
 
 .content {
+  margin-bottom: 20px;
+  padding-right: 60px;
 }
 
 .heading {
+  font-size: 22px;
+  font-weight: 700;
+  color: #7c3a12;
+  margin: 0 0 6px 0;
+  letter-spacing: -0.2px;
 }
 
 .subtext {
+  font-size: 14px;
+  color: #6b3d1e;
+  margin: 0;
+  line-height: 1.5;
 }
 
 .enrichedPanel {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 16px 18px;
+  box-shadow: 0 6px 18px rgba(16, 24, 40, 0.08);
+}
+
+.panelTitle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #0f172a;
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #f0f1f3;
+  width: 100%;
+}
+
+.sparkle {
+  color: #a855f7;
+  font-size: 16px;
+}
+
+.detailsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 18px;
+}
+
+@media (max-width: 520px) {
+  .detailsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .content {
+    padding-right: 56px;
+  }
 }

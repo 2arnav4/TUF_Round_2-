@@ -1,15 +1,125 @@
 .crmCard {
-  --card-bg: #d7ebd3;
+  --card-bg: linear-gradient(135deg, #d7ebd3 0%, #c5e4c0 100%);
 }
 
 .content {
+  margin-bottom: 16px;
 }
 
 .heading {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1f5b2e;
+  margin: 0 0 6px 0;
+  letter-spacing: -0.2px;
 }
 
 .subtext {
+  font-size: 14px;
+  color: #2f5a3a;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.statusStrip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.statusItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: #2f5a3a;
+  font-weight: 500;
+}
+
+.bolt {
+  color: #16a34a;
 }
 
 .crmPanel {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 14px 16px;
+  box-shadow: 0 6px 18px rgba(16, 24, 40, 0.08);
+}
+
+.panelHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f0f1f3;
+}
+
+.panelTitle {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.logos {
+  display: inline-flex;
+  gap: 6px;
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.logoHubspot {
+  background-color: #ff7a59;
+}
+
+.logoIntercom {
+  background-color: #1f8ded;
+}
+
+.tableHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 4px 4px;
+  font-size: 12px;
+  color: #8b92a1;
+  font-weight: 500;
+}
+
+.col {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.seatIcon {
+  font-size: 11px;
+}
+
+.companyIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  background-color: #0f172a;
+  color: #ffffff;
+  font-size: 10px;
+}
+
+.iconPink {
+  background-color: #fecdd3;
+  color: #be123c;
 }

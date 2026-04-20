@@ -1,15 +1,150 @@
 .milestonesCard {
-  --card-bg: #f4d5e6;
+  --card-bg: linear-gradient(135deg, #f4d5e6 0%, #e9c3e0 100%);
 }
 
 .content {
+  margin-bottom: 20px;
 }
 
 .heading {
+  font-size: 22px;
+  font-weight: 700;
+  color: #5b2148;
+  margin: 0 0 6px 0;
+  letter-spacing: -0.2px;
 }
 
 .subtext {
+  font-size: 14px;
+  color: #5a3b50;
+  margin: 0;
+  line-height: 1.5;
+  max-width: 36ch;
 }
 
 .alertPanel {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 16px 18px;
+  box-shadow: 0 6px 18px rgba(16, 24, 40, 0.08);
+  margin: 0 auto;
+}
+
+.alertHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f0f1f3;
+  margin-bottom: 10px;
+}
+
+.appIcon {
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  background-color: #0f172a;
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.appName {
+  font-size: 13px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.appBadge {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  color: #64748b;
+  background-color: #eef0f4;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+.timestamp {
+  font-size: 12px;
+  color: #8b92a1;
+}
+
+.slackMark {
+  margin-left: auto;
+  color: #e11d48;
+  font-weight: 700;
+}
+
+.message {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #0f172a;
+  margin-bottom: 6px;
+}
+
+.messageIcon {
+  color: #22c55e;
+}
+
+.messageTitle {
+  font-weight: 600;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  margin-bottom: 14px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #f0f1f3;
+}
+
+.avatar {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fbbf24;
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.userName {
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.userEmail {
+  color: #3b82f6;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.detailsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 18px;
+}
+
+.link {
+  color: #3b82f6;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 600;
+}
+
+@media (max-width: 520px) {
+  .detailsGrid {
+    grid-template-columns: 1fr;
+  }
 }

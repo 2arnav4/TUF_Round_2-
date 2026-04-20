@@ -1,0 +1,53 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 4px;
+  border-top: 1px solid #f0f1f3;
+  font-size: 14px;
+}
+
+.company {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #111827;
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.companyName {
+  font-weight: 500;
+}
+
+.valueGroup {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.value {
+  color: #111827;
+  font-weight: 600;
+}
+
+.change {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.success {
+  color: #16a34a;
+}
+
+.danger {
+  color: #dc2626;
+}
