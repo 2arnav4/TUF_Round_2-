@@ -1,11 +1,17 @@
-import { useState } from 'react'
 import './App.css'
+import ReportsCard from './Components/ReportsCard/ReportsCard'
+import MilestonesCard from './Components/MilestonesCard/MilestonesCard'
+import EnrichmentCard from './Components/EnrichmentCard/EnrichmentCard'
+import CRMCard from './Components/CRMCard/CRMCard'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-   <div>Hello TUF</div>
+    <div className="app">
+      <ReportsCard />
+      <MilestonesCard />
+      <EnrichmentCard />
+      <CRMCard />
+    </div>
   )
 }
 
