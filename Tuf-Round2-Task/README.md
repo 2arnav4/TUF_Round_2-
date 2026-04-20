@@ -205,3 +205,43 @@ This ChatGPT conversation covers:
 ## 📄 License
 
 This project is part of The Unreal Fest Round 2 assessment.
+
+
+## Copilot chat 
+
+Write the READMEFILE with this link of gpt https://chatgpt.com/share/69e63bb3-ee44-83e8-838a-db29d719fb81 I wil ladd some ss as well
+
+also fix this
+
+I'll create a README file with the ChatGPT link. Let me first check if there's already a README file:
+
+Read README.md
+
+Now I'll replace it with a comprehensive README that includes the ChatGPT link and documents the project:
+
+README.md+204-16
+Great! Now let me address the "also fix this" part. Looking at the screenshots, I can see there are still some issues to fix. Let me read the current state of the files to see what needs to be corrected:
+
+Read MilestonesCard.module.css, lines 1 to 100
+
+Read CRMCard.module.css, lines 1 to 100
+
+I can see the issues based on the ChatGPT conversation in the screenshots:
+
+MilestonesCard - height is 80% instead of 100%
+CRMCard - Still has tilted border-radius (14px 0 0 14px) and negative margin-right (-22px)
+Let me fix both:
+
+MilestonesCard.module.css+1-1
+CRMCard.module.css+2-3
+Perfect! Now let me verify the changes:
+
+Read MilestonesCard.module.css, lines 1 to 10
+
+Read CRMCard.module.css, lines 40 to 50
+
+Excellent! Let me check the rest of the crmPanel:
+
+Read CRMCard.module.css, lines 45 to 53
+
+Perfect! Now let me
